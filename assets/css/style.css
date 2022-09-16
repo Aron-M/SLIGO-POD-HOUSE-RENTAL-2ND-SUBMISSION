@@ -46,3 +46,34 @@ body {
     text-align: center;
     color: #ffff;
 }
+
+.hero-image {
+    border-style: solid;
+    border-width: 0.5%;
+    border-color: #292c31;    
+    width: 98%;
+    margin-top: 1rem;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas-Neue', sans-serif;
+    font-size: 2.6rem;
+    color: #ffff;
+}
+
+.info-div {
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #292c31;
+    padding: 2rem;
+}
+
+
+#kitchen-living-space {
+    width: fit-content;
+}
