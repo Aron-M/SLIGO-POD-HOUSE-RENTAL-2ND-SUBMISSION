@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: #60806c;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Inter:wght@300&display=swap');
+
+.sticky-header {
+    font-family: 'Bebas-Neue', sans-serif;
+    font-size: 3rem;
+    background-color: #292c31;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-button i {
+    margin-right: 10vw;
+    color: #ffff;
+}
+
+.big-heading {
+    font-size: 7rem;
+    font-family: 'Bebas-Neue', sans-serif;
+    text-align: center;
+    color: #292c31;
+    margin-top: 10rem;
+}
+
+.sub-heading {
+    font-family: 'Bebas-Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffff;
+}
