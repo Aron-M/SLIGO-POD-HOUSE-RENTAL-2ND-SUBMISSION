@@ -131,12 +131,7 @@ figcaption {
     text-align:lcenter;   
     padding: 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;
-   
-    
+    flex-direction: column;   
 }
 
 .listfeatures > li {
@@ -146,6 +141,7 @@ figcaption {
     margin-bottom: 10%;
     width: 100%;
     height: auto;
+    list-style: square;
 }
 
 .inc-list {

@@ -21,7 +21,7 @@
         </nav>
     </section>
 
-    <header class="big-heading">
+    <header class="big-heading" id="home">
         THE ·POD· HOUSE
     </header>
     <h1 class="sub-heading">BOOK A STAY IN THE COUNTRYSIDE OF SLIGO</h1>
@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="the-pod">
         <h1 class="sub-header">
             THE POD
         </h1>
@@ -104,6 +104,89 @@
                 </li>
             </ul>
         </div>
+    </section>
+
+    <section>
+        <h1 class="sub-header" id="sub-header-4">
+            THINGS TO DO
+          </h1>
+      
+      
+          <div class="things-to-do-container">
+            <div>
+              <img src="assets/images/beach.png" alt="Beach" class="activities">
+              <p class="icon-description"> NEARBY BEACHES </p>
+            </div>
+            <div>
+              <img src="assets/images/hike.png" alt="Hike" class="activities">
+              <p class="icon-description"> VARIOUS HIKING/WALKING TRAILS </p>
+            </div>
+            <div>
+              <img src="assets/images/windsurf.png" alt="Windsurf" class="activities">
+              <p class="icon-description"> TOP WINDSURFING SPOTS</p>
+            </div>
+            <div>
+              <img src="assets/images/fishing.png" alt="Fishing" class="activities">
+              <p class="icon-description"> FISHING LOCATIONS </p>
+            </div>
+            <div>
+              <img src="assets/images/cycle.png" alt="Cycle" class="activities">
+              <p class="icon-description"> CYCLE-FRIENDLY AREA </p>
+            </div>
+          </div>
+        </section>
+      
+        <section id="contact">
+          <h1 class="sub-header" id="sub-header-5">
+            MAKE A BOOKING
+          </h1>
+          <form action="contact.html" method="get" id="contact-form" class="form-inputs">
+      
+            <input class="text-inputs" type="text" name="name" id="name" placeholder="Name" required>
+            <input class="text-inputs" type="email" name="email" id="email" placeholder="Email" required>
+            <label for="calendar-1">FROM:</label>
+            <input class="calendar-1" type="date" name="calendar" id="calendar-1" placeholder="Calendar" required>
+            <label for="calendar-2">TO:</label>
+            <input class="calendar-2" type="date" name="calendar" id="calendar-2" placeholder="Calendar" required>
+            <textarea class="text-inputs" name="message" id="message" placeholder="Your message"></textarea>
+            <input type="submit" value="submit" id="submit" class="button submit-button">
+      
+          </form>
+        </section>
+      
+      
+        <section>
+          <h1 class="sub-header" id="sub-header-6">
+            LOCATION
+          </h1>
+      
+          <div id="address">
+            <li>Ballyconnell</li>
+            <li>Ballinfull</li>
+            <li>Co. Sligo</li>
+            <li>F91 XE09</li>
+            <li>Republic of Ireland</li>
+          </div>
+        </section>
+      
+        <div id="map">
+          <iframe id="map"
+            src="https://www.google.com/maps/place/54.357648,+-8.651371/@54.357886,-8.6460493,15z/data=!4m4!3m3!8m2!3d54.3576485!4d-8.6513708"></iframe>
+        </div>
+      
+        <footer>
+          <div id="footer">
+            <ul class="social-media">
+              <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.airbnb.ie/" target="_blank" rel="noopener"><i class="fa-brands fa-airbnb"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+            </ul>
     </section>
 
     <script src="https://kit.fontawesome.com/0d0ea14369.js" crossorigin="anonymous"></script>
