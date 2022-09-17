@@ -25,6 +25,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    margin-right: 10vw;
     
 }
 
@@ -38,7 +39,6 @@ body {
     font-family: 'Bebas-Neue', sans-serif;
     text-align: center;
     color: #292c31;
-    margin-top: 10rem;
 }
 
 .sub-heading {
@@ -174,7 +174,7 @@ figcaption {
 }
 
 .address {
-    margin: 20% 0 20% 0;
+    margin: 20% 0 10% 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -191,3 +191,14 @@ figcaption {
     list-style: none; 
     text-transform: uppercase;
 }
+
+.map{
+    display:block;
+    width:100%;
+    height:100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+
