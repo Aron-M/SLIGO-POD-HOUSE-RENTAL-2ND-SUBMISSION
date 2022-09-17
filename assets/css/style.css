@@ -154,3 +154,20 @@ figcaption {
     text-align:start;
     margin: 5% 0 0 10%;
 }
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height:auto;
+    margin-left: 20%;
+}
+
+.icon-description {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Bebas-Neue', sans-serif;
+}
