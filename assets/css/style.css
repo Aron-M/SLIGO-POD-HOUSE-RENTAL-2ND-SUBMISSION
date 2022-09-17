@@ -25,7 +25,6 @@ body {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: 10vw;
     
 }
 
@@ -35,6 +34,7 @@ body {
 }
 
 .big-heading {
+    margin-top: 12rem;
     font-size: 7rem;
     font-family: 'Bebas-Neue', sans-serif;
     text-align: center;
@@ -174,7 +174,6 @@ figcaption {
 }
 
 .address {
-    margin: 20% 0 10% 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -192,13 +191,38 @@ figcaption {
     text-transform: uppercase;
 }
 
-.map{
-    display:block;
-    width:100%;
-    height:100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+#map-wrapper {
+    box-sizing: content-box;
+}
+
+#footer {
+    background-color: #000000;
+    height: 15rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.social-media > li {
+    margin: 5rem 5rem 0 0;
+}
+
+.social-media i {
+    margin: 40% 20% 20% 20%;
+    font-size: 160%;
+    color: #ffffff;
+    display: flex;
+    
 }
 
