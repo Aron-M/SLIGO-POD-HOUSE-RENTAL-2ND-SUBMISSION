@@ -25,6 +25,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .nav-button i {
@@ -170,4 +171,23 @@ figcaption {
     font-size: 1.7rem;
     font-weight: 600;
     font-family: 'Bebas-Neue', sans-serif;
+}
+
+.address {
+    margin: 20% 0 20% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4%;
+    border-color: #ffffff;
+    padding: 2% 0 2% 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    list-style: none; 
+    text-transform: uppercase;
 }
