@@ -48,32 +48,113 @@ body {
 }
 
 .hero-image {
+    box-sizing: border-box;
     border-style: solid;
     border-width: 0.5%;
     border-color: #292c31;    
-    width: 98%;
-    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 2%;
 }
 
 .sub-header {
     display: flex;
     justify-content: center;
     font-family: 'Bebas-Neue', sans-serif;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     color: #ffff;
 }
 
 .info-div {
     text-align: center;
     font-family: 'Almarai', sans-serif;
-    font-weight: 700;
-    border-style: solid;
-    border-width: 0.2rem;
-    border-color: #292c31;
-    padding: 2rem;
+    color: #ffff;
+    font-weight: 500;  
+    padding: 2%;
+    text-align:center;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #303339;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 
 #kitchen-living-space {
-    width: fit-content;
+    box-sizing: border-box;
+    width: 100%;
+    border-width: 3%;
+    border-style: solid;
+    border-color: #292c31;
+    
+}
+
+.interior-images {
+    box-sizing: border-box;
+    width: 100%;
+    border-width: 3%;
+    border-style: solid;
+    border-color: #292c31;
+}
+
+.features-background {
+    background-color: #303339;
+    height: 70%;
+    width: 100%;
+}
+
+.includes-box {
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    border: #ffffff;
+    border-style: solid;
+    margin: 0 10% 0 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.listfeatures {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align:lcenter;   
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+   
+    
+}
+
+.listfeatures > li {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: "Inter"'sans-serif';
+    margin-bottom: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.inc-list {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: left;
+    text-align:start;
+    margin: 5% 0 0 10%;
 }
