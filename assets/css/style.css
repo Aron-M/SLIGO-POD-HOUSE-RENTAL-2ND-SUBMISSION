@@ -12,7 +12,7 @@ body {
 
 .sticky-header {
     font-family: 'Bebas-Neue', sans-serif;
-    font-size: 3rem;
+
     background-color: #292c31;
     position: fixed;
     top: 0;
@@ -28,22 +28,32 @@ body {
     
 }
 
+.logo {
+    display: flex;
+    align-items: flex-start;
+    width: 8rem;
+    height:auto;
+    margin-right: 5vw;
+}
+
 .nav-button i {
+    font-size: 3rem;
+    margin-top: 2rem;
     margin-right: 10vw;
     color: #ffff;
 }
 
 .big-heading {
-    margin-top: 12rem;
-    font-size: 7rem;
+    font-size: 19vw;
     font-family: 'Bebas-Neue', sans-serif;
     text-align: center;
     color: #292c31;
+    margin: 10rem 0 0 0;
 }
 
 .sub-heading {
     font-family: 'Bebas-Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     color: #ffff;
 }
@@ -54,7 +64,6 @@ body {
     border-width: 0.5%;
     border-color: #292c31;    
     width: 100%;
-    margin-bottom: 2%;
 }
 
 .sub-header {
