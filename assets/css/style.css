@@ -29,17 +29,17 @@ body {
 }
 
 .logo {
-    display: flex;
-    align-items: flex-start;
-    width: 8rem;
-    height:auto;
-    margin-right: 5vw;
+    position:absolute;
+    width: 6rem;
+    margin: 0vw 75vw 1vw 3vw;
+    
 }
 
 .nav-button i {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 10vw;
+    margin-bottom: 1.5rem;
     color: #ffff;
 }
 
@@ -48,7 +48,7 @@ body {
     font-family: 'Bebas-Neue', sans-serif;
     text-align: center;
     color: #292c31;
-    margin: 10rem 0 0 0;
+    margin: 9rem 0 0 0;
 }
 
 .sub-heading {
@@ -64,6 +64,7 @@ body {
     border-width: 0.5%;
     border-color: #292c31;    
     width: 100%;
+    margin-bottom: 1.5vw;
 }
 
 .sub-header {
@@ -79,6 +80,7 @@ body {
     font-family: 'Almarai', sans-serif;
     color: #ffff;
     font-weight: 500;  
+    margin-top: 6vw;
     padding: 2%;
     text-align:center;
 }
@@ -115,7 +117,7 @@ figcaption {
 
 .features-background {
     background-color: #303339;
-    height: 70%;
+    height: auto;
     width: 100%;
 }
 
@@ -123,9 +125,6 @@ figcaption {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     color: #ffffff;
-    border-color: #ffffff;
-    border-style: solid;
-    border-top: 10%;
     margin: 0 10% 0 10%;
     width: 80%;
     display: flex;
@@ -263,8 +262,12 @@ figcaption {
 }
 
 #footer {
-    background-color: #000000;
-    height: 15rem;
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #292c31;
 }
 
 .social-media {
@@ -275,7 +278,9 @@ figcaption {
 }
 
 .social-media > li {
-    margin: 5rem 5rem 0 0;
+    margin: 1rem 6rem 2rem 0;
+    display:flex;
+    justify-content: center;
 }
 
 .social-media i {
