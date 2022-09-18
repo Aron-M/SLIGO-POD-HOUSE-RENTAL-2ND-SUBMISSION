@@ -53,6 +53,7 @@ figcaption {
     color: #303339;
     display: flex;
     justify-content: center;
+    width: inherit;
     margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -83,7 +84,8 @@ figcaption {
 
 .logo {
     width: 6rem;
-    margin-right: 11vw;
+    margin-right: 5rem;
+    margin-left: 1.5rem;
 }
 
 /* 2.1.2 navigation */
@@ -91,7 +93,7 @@ figcaption {
 .nav-button i {
     font-size: 3rem;
     margin-top: 1rem;
-    margin-right: 10vw;
+    margin-right: 2rem;
     margin-bottom: 1.5rem;
     color: #ffff;
 }
@@ -99,11 +101,11 @@ figcaption {
 /* 2.1.3 main headers */
 
 .big-heading {
-    font-size: 19vw;
+    font-size: 7rem;
     font-family: 'Bebas-Neue', sans-serif;
     text-align: center;
     color: #292c31;
-    margin: 9rem 0 0 0;
+    margin: 10rem 0 0;
 }
 
 .sub-heading {
@@ -138,6 +140,18 @@ figcaption {
 
 /* 2.2.1 interior images with figcaptions */
 
+.interior-images {
+    position:relative;
+    box-sizing: border-box;
+    object-fit:scale-down;
+    border-style: solid;
+    border-width: 0.5%;
+    border-color: #292c31;    
+    height: 130vw;
+    margin-bottom: 1.5vw;
+    margin-left: 10%;
+}
+
 #kitchen-living-space {
     box-sizing: border-box;
     display: flex;
@@ -148,18 +162,8 @@ figcaption {
     border-width: 3%;
     border-style: solid;
     border-color: #292c31;
+    margin-left: 0%;
     
-}
-
-.interior-images {
-    box-sizing: border-box;
-    object-fit:none;
-    border-style: solid;
-    border-width: 0.5%;
-    border-color: #292c31;    
-    width: 100%;
-    height: 90vw;
-    margin-bottom: 1.5vw;
 }
 
 .features-background {
@@ -211,7 +215,7 @@ figcaption {
     display: flex;
     justify-content: left;
     text-align:start;
-    margin: 5% 0 0 10%;
+    margin: 5% 20% 5%;
 }
 
 /* 2.2.3 activities */
@@ -308,7 +312,7 @@ figcaption {
     bottom: 0;
     width: 100%;
     height: 10%;
-    background-color: #292c31;
+    background-color: #60806c;
 }
 
 .social-media {
