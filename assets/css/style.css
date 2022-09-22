@@ -191,7 +191,7 @@ figcaption {
     font-weight: bold;
     display: flex;
     align-items: center;
-    text-align:lcenter;   
+    text-align:center;   
     padding: 10%;
     display: flex;
     flex-direction: column;   
@@ -393,6 +393,7 @@ figcaption {
         object-fit: fill;
         margin-top: 3%;
 
+
     }
 
     .gallery{
@@ -404,7 +405,30 @@ figcaption {
     .interior-images,
     #kitchen-living-space {
         width:100%;
-        max-width:55vw;
-        height:22vw;
+        max-width:45vw;
+        height:20vw;
+        object-fit:cover;
+    }
+
+    .big-heading { 
+        margin-top: 10%;
+    }
+
+    .info-div {
+        margin-bottom: 7%;
+    }
+
+    .listfeatures {
+        
+        display: flex;
+        align-items:flex-start;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+        padding:0;
+        margin-bottom:0;
+        font-size: 0.2rem;
     }
 }
