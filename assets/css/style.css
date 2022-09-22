@@ -354,4 +354,25 @@ figcaption {
         height:75vw;
     }
 
+
+    .listfeatures {
+        display: flex;
+        align-items: flex-start;
+        text-align:left; 
+        margin-left: 15%;
+    }
+    
+    .things-to-do-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .activities {
+        width:100%;
+        max-width:45vw;
+        margin-left: 0;
+        margin-bottom: 1rem;
+        height:35vw;
+    }
 }
