@@ -185,7 +185,6 @@ figcaption {
 /* 2.2.2 features list */
 
 .listfeatures {
-    list-style-type: none;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -199,8 +198,7 @@ figcaption {
 
 .listfeatures > li {
     color: #ffffff;
-    font-size: 1.5rem;
-    font-family: "Inter"'sans-serif';
+    font-size: 1.4vw;
     margin-bottom: 10%;
     width: 100%;
     height: auto;
@@ -382,7 +380,7 @@ figcaption {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 830px) {
     .first-images {
       
         display: flex;
@@ -411,7 +409,7 @@ figcaption {
     }
 
     .big-heading { 
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .info-div {
@@ -428,7 +426,32 @@ figcaption {
         height: auto;
         margin-left: 2%;
         padding:0;
-        margin-bottom:0;
-        font-size: 0.2rem;
+        list-style: none;
+
+    }
+
+    .listeatures > li {
+            display:flex;
+            justify-content: space-evenly;
+            list-style: none;
+    }
+
+    .features-background {
+        height: 30vw;
+    }
+
+    .things-to-do-container {
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .activities {
+        width:100%;
+        max-width:45vw;
+        margin-left: 0;
+        margin-bottom: 1rem;
+        height:15vw;
     }
 }
