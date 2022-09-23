@@ -442,16 +442,20 @@ figcaption {
 
     .things-to-do-container {
         display:flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
         height: auto;
     }
 
     .activities {
         width:100%;
-        max-width:45vw;
+        max-width:25vw;
         margin-left: 0;
         margin-bottom: 1rem;
-        height:15vw;
+        height:25vw;
+    }
+
+    .icon-description {
+        font-size: 1.4vw;
     }
 }
