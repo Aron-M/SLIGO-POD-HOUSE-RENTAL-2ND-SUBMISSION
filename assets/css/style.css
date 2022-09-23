@@ -23,7 +23,7 @@
 
         */
 
-        /* 1. GLOBAL */
+/* 1. GLOBAL */
 
 /* 1.1 global styles */
 
@@ -66,7 +66,6 @@ figcaption {
 
 .sticky-header {
     font-family: 'Bebas-Neue', sans-serif;
-
     background-color: #292c31;
     position: fixed;
     top: 0;
@@ -75,11 +74,11 @@ figcaption {
     z-index: 999999;
 }
 
-.header-list{
+.header-list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
 .logo {
@@ -121,7 +120,7 @@ figcaption {
     box-sizing: border-box;
     border-style: solid;
     border-width: 0.5%;
-    border-color: #292c31;    
+    border-color: #292c31;
     width: 100%;
     margin-bottom: 1.5vw;
 }
@@ -132,21 +131,21 @@ figcaption {
     text-align: center;
     font-family: 'Almarai', sans-serif;
     color: #ffff;
-    font-weight: 500;  
+    font-weight: 500;
     margin-top: 6vw;
     padding: 2%;
-    text-align:center;
+    text-align: center;
 }
 
 /* 2.2.1 interior images with figcaptions */
 
 .interior-images {
-    position:relative;
+    position: relative;
     box-sizing: border-box;
-    object-fit:fill;
+    object-fit: fill;
     border-style: solid;
     border-width: 0.5%;
-    border-color: #292c31;    
+    border-color: #292c31;
     height: 130vw;
     margin-bottom: 1.5vw;
     margin-left: 10%;
@@ -163,7 +162,8 @@ figcaption {
     border-style: solid;
     border-color: #292c31;
     margin-left: 0%;
-    
+    margin-bottom: 1.5vw;
+
 }
 
 .features-background {
@@ -190,19 +190,19 @@ figcaption {
     font-weight: bold;
     display: flex;
     align-items: center;
-    text-align:center;   
+    text-align: center;
     padding: 10%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
-.listfeatures > li {
+.listfeatures>li {
     color: #ffffff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     margin-bottom: 10%;
     width: 100%;
     height: auto;
-    list-style: square;
+    list-style: none;
 }
 
 .inc-list {
@@ -212,18 +212,18 @@ figcaption {
     margin-bottom: 5%;
     display: flex;
     justify-content: left;
-    text-align:start;
+    text-align: start;
     margin: 5% 20% 5%;
 }
 
 /* 2.2.3 activities */
 
-.activities{
+.activities {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
-    height:auto;
+    height: auto;
     margin-left: 20%;
 }
 
@@ -243,7 +243,7 @@ figcaption {
 
 .form-inputs {
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     justify-content: center space-between space-around;
 }
@@ -251,23 +251,24 @@ figcaption {
 .text-inputs {
     margin-bottom: 5%;
     width: 90%;
-    height:3vh;
+    height: 3vh;
 }
 
 #message {
-    width:90%;
+    width: 90%;
     height: 12vh;
 }
-.calendar-1 { 
+
+.calendar-1 {
     margin-bottom: 5%;
     width: 90%;
-    height:3vh;
+    height: 3vh;
 }
 
-.calendar-2{
+.calendar-2 {
     margin-bottom: 5%;
     width: 90%;
-    height:3vh;
+    height: 3vh;
 }
 
 /* 2.3.2 location */
@@ -286,7 +287,7 @@ figcaption {
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    list-style: none; 
+    list-style: none;
     text-transform: uppercase;
 }
 
@@ -305,7 +306,7 @@ figcaption {
 /* 2.4 footer */
 
 #footer {
-    position:sticky;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -320,9 +321,9 @@ figcaption {
     list-style: none;
 }
 
-.social-media > li {
+.social-media>li {
     margin: 1rem 6rem 2rem 0;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -331,35 +332,35 @@ figcaption {
     font-size: 160%;
     color: #ffffff;
     display: flex;
-    
+
 }
 
 /* form.html */
 
 @media (min-width: 576px) {
 
-    .gallery{
+    .gallery {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
     .interior-images {
-        width:100%;
-        max-width:45vw;
+        width: 100%;
+        max-width: 45vw;
         margin-left: 0;
         margin-bottom: 1rem;
-        height:75vw;
+        height: 75vw;
     }
 
 
     .listfeatures {
         display: flex;
         align-items: flex-start;
-        text-align:left; 
+        text-align: left;
         margin-left: 15%;
     }
-    
+
     .things-to-do-container {
         display: flex;
         flex-wrap: wrap;
@@ -368,11 +369,11 @@ figcaption {
     }
 
     .activities {
-        width:100%;
-        max-width:45vw;
+        width: 100%;
+        max-width: 45vw;
         margin-left: 0;
         margin-bottom: 1rem;
-        height:35vw;
+        height: 35vw;
     }
 
     #message {
@@ -382,11 +383,11 @@ figcaption {
 
 @media (min-width: 830px) {
     .first-images {
-      
+
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        width:100%;
+        width: 100%;
         height: 28vw;
         object-fit: fill;
         margin-top: 3%;
@@ -394,7 +395,7 @@ figcaption {
 
     }
 
-    .gallery{
+    .gallery {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -402,13 +403,13 @@ figcaption {
 
     .interior-images,
     #kitchen-living-space {
-        width:100%;
-        max-width:45vw;
-        height:20vw;
-        object-fit:cover;
+        width: 100%;
+        max-width: 45vw;
+        height: 20vw;
+        object-fit: cover;
     }
 
-    .big-heading { 
+    .big-heading {
         margin-top: 12%;
     }
 
@@ -417,45 +418,93 @@ figcaption {
     }
 
     .listfeatures {
-        
+
         display: flex;
-        align-items:flex-start;
+        align-items: flex-start;
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
         height: auto;
         margin-left: 2%;
-        padding:0;
+        padding: 0;
         list-style: none;
 
     }
 
-    .listeatures > li {
-            display:flex;
-            justify-content: space-evenly;
-            list-style: none;
+    .listeatures>li {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
     }
 
     .features-background {
-        height: 30vw;
+        height: 33rem;
     }
 
     .things-to-do-container {
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: auto;
     }
 
     .activities {
-        width:100%;
-        max-width:25vw;
+        width: 100%;
+        max-width: 25vw;
         margin-left: 0;
-        margin-bottom: 1rem;
-        height:25vw;
+        height: 25vw;
     }
 
     .icon-description {
         font-size: 1.4vw;
+    }
+
+
+    .book-location-final-query {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-bottom: 7vw;
+    }
+
+    .form-inputs {
+        width: 60vw;
+        height: 38vw;
+    }
+
+    .address {
+
+        height: 12vw;
+    }
+
+    .calendar-1,
+    .calendar-2 {
+        height: 4rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .things-to-do-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 15vw;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+
+    .activities {
+        width: 100%;
+        max-width: 15vw;
+        margin-left: 0;
+        height: 15vw;
+    }
+
+    .icon-description {
+        font-size: 1.3rem;
+        font-weight: 400;
     }
 }

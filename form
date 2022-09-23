@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE ·POD· HOUSE</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body id="home">
+  <section class="sticky-header" #main-menu>
+    <nav>
+      <ul class="header-list">
+        <a href="#home"><img class="logo" src="assets/css/images/·POD· logo.png" alt="Logo"></a>
+        <li class="nav-button"><a href="#the-pod"><i class="fa-solid fa-circle-info"></i></a></li>
+        <li class="nav-button"><a href="#things-to-do"><i class="fa-solid fa-mountain-sun"></i></a></li>
+        <li class="nav-button"><a href="#book"><i class="fa-regular fa-address-book"></i></a></li>
+
+      </ul>
+    </nav>
+  </section>
+
+  <header class="big-heading">
+    THE ·POD· HOUSE
+  </header>
