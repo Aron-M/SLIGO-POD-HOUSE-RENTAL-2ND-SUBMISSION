@@ -203,6 +203,7 @@ figcaption {
     width: 100%;
     height: auto;
     list-style: none;
+    margin: 0, 5vw, 10vw;
 }
 
 .inc-list {
@@ -336,6 +337,40 @@ figcaption {
 }
 
 /* form.html */
+
+.contact-message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4%;
+    border-color: #ffffff;
+    padding: 2% 0 2% 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 10vw;;
+}
+
+.thank-you {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #292c31;
+    border-width: 0.3rem;
+    display: flex;
+    justify-content: center;;
+
+}
+
 
 @media (min-width: 576px) {
 
