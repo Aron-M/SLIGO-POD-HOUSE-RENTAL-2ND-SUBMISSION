@@ -21,6 +21,12 @@
         2.4  footer
         2.5  contact.html
 
+        3.1 Media Queries for tablet (>576px)
+
+        3.2 Media Queries for large screen (>830px)
+
+        3.3 Media Queries for extra large screen  (>1000px)
+
         */
 
 /* 1. GLOBAL */
@@ -377,6 +383,7 @@ figcaption {
 
 }
 
+/* Media Queries for tablet (>576px) */
 
 @media (min-width: 576px) {
 
@@ -421,6 +428,8 @@ figcaption {
         height: 35vh;
     }
 }
+
+/* Media Queries for large screen (>830px) */
 
 @media (min-width: 830px) {
     .first-images {
@@ -525,6 +534,8 @@ figcaption {
         height: 4rem;
     }
 }
+
+/* Media Queries for extra large screen (>1000px) */
 
 @media (min-width: 1000px) {
     .things-to-do-container {
