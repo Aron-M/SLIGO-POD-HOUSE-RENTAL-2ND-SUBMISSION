@@ -33,6 +33,12 @@ html {
     background-color: #60806c;
 }
 
+:root {
+    --white: #ffffff;
+    --green: #60806c;
+   --dark-grey: #292c31;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -50,7 +56,7 @@ figcaption {
     font-family: Arial;
     font-weight: bold;
     font-size: 2rem;
-    color: #303339;
+    color: #292c31;
     display: flex;
     justify-content: center;
     width: inherit;
