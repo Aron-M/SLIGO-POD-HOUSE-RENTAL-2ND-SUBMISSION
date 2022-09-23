@@ -91,3 +91,10 @@ Interactive buttons
 Fontawesome was used to obtain various icons used within the website, such as within the the INCLUDING section as well as THINGS TO DO section of the page.
 
 
+
+
+#FOR YOUR ATTENTION
+
+The following README is incomplete as of here onwards. Kindly see DISCLAIMER.md for further details.
+
+
